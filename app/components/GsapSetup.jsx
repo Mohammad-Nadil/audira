@@ -52,8 +52,7 @@ export default function GsapSetup() {
         end: End,
         scrub: true,
       },
-      y: "100%",
-      ease: "power1.inOut",
+      y: "100%"
     });
   }, []);
 
