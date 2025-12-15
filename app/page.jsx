@@ -13,6 +13,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import GsapSetup from "./components/GsapSetup";
 import { SplitText } from "gsap/all";
+import "./globals.css"
 
 const page = () => {
   const textRef = useRef(null);
@@ -240,31 +241,31 @@ const page = () => {
           src={headPhone}
           id="moving-headphone"
           alt=""
-          className="absolute z-40 will-change-transform opacity-0 scale-0"
+          className="absolute z-40 will-change-transform opacity-0 scale-0 headphone-glow"
         />
         <Image
           ref={movingAboutRef}
           src={headPhone}
           alt="headphone-image"
-          className="opacity-0 absolute z-40 will-change-transform"
+          className="opacity-0 absolute z-40 will-change-transform headphone-glow"
         />
         <Image
           ref={movingVideoRef}
           src={headPhone}
           alt="headphone-image"
-          className="opacity-0 absolute z-40 will-change-transform"
+          className="opacity-0 absolute z-40 will-change-transform headphone-glow"
         />
         <Image
           ref={movingGalleryRef}
           src={headPhone}
           alt="headphone-image"
-          className="opacity-0 absolute z-40 will-change-transform"
+          className="opacity-0 absolute z-40 will-change-transform headphone-glow"
         />
         <Image
           ref={movingProductRef}
           src={headPhone}
           alt="headphone-image"
-          className="opacity-0 absolute z-40 will-change-transform"
+          className="opacity-0 absolute z-40 will-change-transform headphone-glow"
         />
       </div>
 
@@ -492,7 +493,10 @@ const page = () => {
         <div className="absolute inset-0 bg-black/30" />
 
         {/* Glass Text Card */}
-        <div className="card relative max-w-xl ml-auto p-5 sm:p-8 rounded-2xl backdrop-blur-sm bg-white/10 border border-white/20 shadow-2xl text-white ">
+        <div
+          className="card relative max-w-xl ml-auto p-5 sm:p-8 rounded-2xl backdrop-blur-sm bg-white/10 border border-white/20  
+        text-white "
+        >
           <h2 className="heading font-Outfit font-bold text-[14vw] leading-[80%] uppercase xl:text-[5rem]">
             pure
             <br />
