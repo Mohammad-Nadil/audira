@@ -13,7 +13,7 @@ export default function GsapSetup() {
 
     gsap.from("#about .top .left", {
       scrollTrigger: {
-        trigger: ".top",
+        trigger: "#about",
         start: Start,
         end: End,
         scrub: true,
@@ -53,7 +53,6 @@ export default function GsapSetup() {
         scrub: true,
       },
       y: "100%",
-      duration: 2,
       ease: "power1.inOut",
     });
   }, []);
