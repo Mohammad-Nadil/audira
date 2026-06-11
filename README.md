@@ -5,8 +5,8 @@ This project focuses on smooth scroll-based transitions, image morphing effects,
 
 ---
 
-## 🚀 Live Preview
-https://nadil.vercel.app *(replace with your actual link if different)*
+## 🚀 [Live Preview](https://audira-gsap.vercel.app/)
+https://audira-gsap.vercel.app/
 
 ---
 
@@ -30,6 +30,3 @@ https://nadil.vercel.app *(replace with your actual link if different)*
 - GSAP SplitText plugin
 - Tailwind CSS
 
----
-
-## 📂 Project Structure
